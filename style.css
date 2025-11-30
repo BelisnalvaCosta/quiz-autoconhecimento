@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background: #4a90e2;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 950px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 18px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-color: #4a90e2;
+}
+
+.card.selected {
+    background: #4a90e2;
+    color: white;
+    border-color: #2d6bbf;
+}
+
+.actions {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    background: #4a90e2;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #2d6bbf;
+}
+
+.resultado {
+    max-width: 850px;
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.hidden {
+    display: none;
+} 
+
+/* ---------- MOBILE RESPONSIVO ---------- */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.95rem;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .card {
+        padding: 14px;
+        font-size: 0.9rem;
+        border-radius: 8px;
+    }
+
+    .actions {
+        margin: 15px 0;
+    }
+
+    button {
+        width: 90%;
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    .resultado {
+        width: 92%;
+        margin: 15px auto;
+        padding: 16px;
+        font-size: 0.95rem;
+    }
+
+    #lista-valores {
+        font-size: 1rem;
+    }
+
+    #feedback {
+        margin-top: 10px;
+        line-height: 1.4rem;
+    }
+} 
