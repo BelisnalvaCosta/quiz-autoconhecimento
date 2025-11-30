@@ -4,6 +4,7 @@ Este é um projeto interativo desenvolvido para ajudar o usuário a identificar 
 Após selecionar até **cinco valores**, o sistema gera um **feedback automático** baseado em perfis comportamentais reais. [^1]
 
 O objetivo do quiz é estimular reflexão, autoconhecimento e desenvolvimento pessoal, podendo ser utilizado em estudos, mentorias, coaching, ambientes acadêmicos ou processos seletivos.
+<img width="771" height="671" alt="quiz-autoconhecimento" src="https://github.com/user-attachments/assets/faca2fe2-673d-49c1-974f-741112873d74" />
 
 ---
 
